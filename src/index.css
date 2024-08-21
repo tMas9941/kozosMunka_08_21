@@ -1,0 +1,22 @@
+:root {
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	margin: 40px;
+	padding: 20px;
+	background-color: rgb(52, 52, 43);
+}

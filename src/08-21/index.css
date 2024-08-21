@@ -1,0 +1,64 @@
+:root {
+	--color-green: rgb(70, 200, 70);
+	background-color: gray;
+}
+#createBar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	min-width: 500px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+}
+#taskContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px;
+	gap: 30px;
+}
+
+.taskBar {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	min-width: 500px;
+	background-color: rgb(118, 199, 231);
+	border-radius: 20px;
+}
+.taskBar > h2 {
+	min-width: 200px;
+	text-align: center;
+}
+.deleteTask {
+	background-color: rgb(228, 106, 106);
+	color: white;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 0px 10px 10px 0px;
+}
+#createButton {
+	background-color: var(--color-green);
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 0px 10px 10px 0px;
+	color: white;
+}
+
+#textInput {
+	padding: 10px 30px 10px 30px;
+	border-width: 3px;
+	border-color: var(--color-green);
+	border-radius: 10px 0px 0px 10px;
+	font-size: 20px;
+}
+.checkbox {
+	min-width: 20px;
+	margin-left: 30px;
+}
